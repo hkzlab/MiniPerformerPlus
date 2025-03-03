@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "MM Performer-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/MM Performer-eagle-import.kicad_sym")(options "")(descr ""))
+)
