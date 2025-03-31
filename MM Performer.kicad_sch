@@ -9247,6 +9247,12 @@
 		(uuid "636a8752-8a4d-4ecc-9404-421f5c72fdf1")
 	)
 	(junction
+		(at 419.1 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63d5bb2d-9f9e-4d55-8fcc-b98aa7753f21")
+	)
+	(junction
 		(at 336.55 254)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9301,6 +9307,12 @@
 		(uuid "868107ff-9cf0-4d6a-8bda-31078105e0ac")
 	)
 	(junction
+		(at 438.15 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dc4d559-4d6e-4ce7-929d-7e2a54d8be85")
+	)
+	(junction
 		(at 391.16 254)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9311,6 +9323,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9dd4c875-ada1-4d25-801a-f8a6270ab592")
+	)
+	(junction
+		(at 427.99 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fe4ef16-ba42-490f-891a-a40ec66bf57f")
 	)
 	(junction
 		(at 328.93 254)
@@ -9367,6 +9385,12 @@
 		(uuid "c3ae9b01-e62f-4ec5-b950-7d53343706f1")
 	)
 	(junction
+		(at 419.1 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5952d7b-2374-43a9-bd7e-a6227bf83b99")
+	)
+	(junction
 		(at 347.98 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9383,6 +9407,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca03e14c-d853-47e6-b542-aea1820fe36f")
+	)
+	(junction
+		(at 438.15 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb848093-57d2-4287-98ed-b0626fd93a0a")
 	)
 	(junction
 		(at 80.01 195.58)
@@ -9419,6 +9449,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6b58ae5-1258-4116-a632-84c482b24677")
+	)
+	(junction
+		(at 427.99 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d84235ee-162a-4e91-978d-869e7b380c4d")
 	)
 	(junction
 		(at 368.3 210.82)
@@ -10822,6 +10858,16 @@
 			(type solid)
 		)
 		(uuid "013ef9cd-64ac-4358-9966-52ac8021042f")
+	)
+	(wire
+		(pts
+			(xy 438.15 218.44) (xy 448.31 218.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "01bb3fec-658c-4452-b54d-a60644fb30f9")
 	)
 	(wire
 		(pts
@@ -12335,6 +12381,16 @@
 	)
 	(wire
 		(pts
+			(xy 427.99 218.44) (xy 438.15 218.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4b183a83-4cf1-4bc8-9a47-f09c8db62127")
+	)
+	(wire
+		(pts
 			(xy 378.46 142.24) (xy 383.54 142.24)
 		)
 		(stroke
@@ -12862,6 +12918,16 @@
 			(type solid)
 		)
 		(uuid "66365b95-3815-4172-8349-6f3d2e738c5d")
+	)
+	(wire
+		(pts
+			(xy 419.1 210.82) (xy 427.99 210.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "669dbcc2-b4a1-42e6-90ed-39e25d33ae0f")
 	)
 	(bus
 		(pts
@@ -14463,6 +14529,16 @@
 		)
 		(uuid "a960bd1c-972f-424f-aa90-3fecb53fe562")
 	)
+	(wire
+		(pts
+			(xy 438.15 210.82) (xy 448.31 210.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a9d5bed1-4e57-49c6-a9f6-2f598ea7d210")
+	)
 	(bus
 		(pts
 			(xy 411.48 96.52) (xy 411.48 99.06)
@@ -14582,6 +14658,16 @@
 			(type solid)
 		)
 		(uuid "b14af2c6-f2e3-486f-bd77-8f69f54d64fe")
+	)
+	(wire
+		(pts
+			(xy 419.1 218.44) (xy 427.99 218.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b1b26e4c-99f3-4a0c-ba69-ff43c1fdf23c")
 	)
 	(bus
 		(pts
@@ -16062,6 +16148,16 @@
 			(type solid)
 		)
 		(uuid "ef82d35a-5586-4f33-9d3a-b6382e7fde43")
+	)
+	(wire
+		(pts
+			(xy 427.99 210.82) (xy 438.15 210.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f0368b99-83dc-42da-b9c5-69b710c9bd15")
 	)
 	(wire
 		(pts
@@ -20570,6 +20666,75 @@
 	)
 	(symbol
 		(lib_id "MM Performer-eagle-import:C-EUC1206")
+		(at 427.99 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "468692a7-4a68-41e4-8160-5bbc1d7b4f50")
+		(property "Reference" "C12"
+			(at 429.514 212.979 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 429.514 218.059 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 427.99 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 427.99 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 427.99 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c42bfd5-2607-4c61-9968-326f023f726e")
+		)
+		(pin "2"
+			(uuid "1ef295f1-1b12-48ce-a6a2-98c1dcfcfcbf")
+		)
+		(instances
+			(project "MM Performer"
+				(path "/563822bb-6af0-4402-8a5a-368bc066444a"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MM Performer-eagle-import:C-EUC1206")
 		(at 408.94 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20768,6 +20933,75 @@
 			(project ""
 				(path "/563822bb-6af0-4402-8a5a-368bc066444a"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MM Performer-eagle-import:C-EUC1206")
+		(at 438.15 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "589b73dc-b556-4ac7-bda1-d3b8e628d9ca")
+		(property "Reference" "C13"
+			(at 439.674 212.979 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 439.674 218.059 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 438.15 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 438.15 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 438.15 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbac4e8d-5a08-42c7-82f8-e1955c65aaea")
+		)
+		(pin "2"
+			(uuid "52820580-b320-40cb-a871-e9b2f490558b")
+		)
+		(instances
+			(project "MM Performer"
+				(path "/563822bb-6af0-4402-8a5a-368bc066444a"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -23238,6 +23472,75 @@
 			(project "MM Performer"
 				(path "/563822bb-6af0-4402-8a5a-368bc066444a"
 					(reference "#P+029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MM Performer-eagle-import:C-EUC1206")
+		(at 448.31 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0f50fef-7568-4529-9dbe-111f4d7fa146")
+		(property "Reference" "C14"
+			(at 449.834 212.979 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 449.834 218.059 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 448.31 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 448.31 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 448.31 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c15cdc80-da0a-41f8-aa98-f3eb258c5f6f")
+		)
+		(pin "2"
+			(uuid "d66113f0-443e-4ce1-a073-31998e507144")
+		)
+		(instances
+			(project "MM Performer"
+				(path "/563822bb-6af0-4402-8a5a-368bc066444a"
+					(reference "C14")
 					(unit 1)
 				)
 			)
