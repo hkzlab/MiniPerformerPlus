@@ -1233,6 +1233,210 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
 				(offset 1.016)
@@ -6538,151 +6742,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MM Performer-eagle-import:SJ"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SJ"
-				(at -2.54 2.54 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -3.81 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "MM Performer:SJ"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD solder JUMPER"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SJ_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.651 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.381 -1.27)
-					(mid -1.651 0)
-					(end -0.381 1.27)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.381 1.27)
-					(mid 1.651 0)
-					(end 0.381 -1.27)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.651 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MM Performer-eagle-import:VCC"
 			(power)
 			(exclude_from_sim no)
@@ -9283,12 +9342,6 @@
 		(uuid "713234eb-bd09-4f15-8300-943687e332dd")
 	)
 	(junction
-		(at 142.24 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79332482-3cf8-4296-99e1-d20de0d8795f")
-	)
-	(junction
 		(at 378.46 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11239,6 +11292,16 @@
 		)
 		(uuid "111fd4d8-5eb9-4209-986f-99f6e0570741")
 	)
+	(wire
+		(pts
+			(xy 130.81 116.84) (xy 143.51 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "114887f9-e107-4a39-8276-b3ee13598cd5")
+	)
 	(bus
 		(pts
 			(xy 111.76 227.33) (xy 111.76 229.87)
@@ -11621,7 +11684,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 127) (xy 152.4 127)
+			(xy 143.51 121.92) (xy 133.35 121.92)
 		)
 		(stroke
 			(width 0)
@@ -15379,6 +15442,16 @@
 		)
 		(uuid "cd4990ae-a3d7-4949-bec4-1640d129b82c")
 	)
+	(wire
+		(pts
+			(xy 143.51 119.38) (xy 133.35 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cd72cd97-6832-47f6-a8f9-40ceed708a2d")
+	)
 	(bus
 		(pts
 			(xy 411.48 73.66) (xy 411.48 76.2)
@@ -15998,16 +16071,6 @@
 			(type default)
 		)
 		(uuid "e80a30ac-5a17-465a-8746-ddd147948399")
-	)
-	(wire
-		(pts
-			(xy 142.24 116.84) (xy 152.4 116.84)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e84123cc-40b5-4f1d-9812-f7d60e24a95d")
 	)
 	(wire
 		(pts
@@ -17019,16 +17082,6 @@
 		)
 		(uuid "3a3739de-2176-47f6-b942-7af5c57e31a7")
 	)
-	(label "FPUCLK"
-		(at 152.4 116.84 180)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right bottom)
-		)
-		(uuid "3b6082fb-0f7d-4f8c-bf1d-fc6af994bba3")
-	)
 	(label "D4"
 		(at 414.02 73.66 0)
 		(effects
@@ -17268,6 +17321,16 @@
 			(justify right bottom)
 		)
 		(uuid "57b9c2e9-e4fb-4f14-8eab-b11426ba3413")
+	)
+	(label "FPUCLK"
+		(at 133.35 119.38 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "57deb851-664b-4215-a24c-9a9429e98ec7")
 	)
 	(label "D17"
 		(at 335.28 137.16 0)
@@ -17640,12 +17703,12 @@
 		(uuid "74b77f63-91ce-434f-8701-b426b732b043")
 	)
 	(label "CLK_30"
-		(at 152.4 127 180)
+		(at 133.35 121.92 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "74fcf968-4aaa-4deb-acfd-7a6584eb32d1")
 	)
@@ -21989,7 +22052,7 @@
 	)
 	(symbol
 		(lib_id "MM Performer-eagle-import:GND")
-		(at 116.84 124.46 0)
+		(at 105.41 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21997,7 +22060,7 @@
 		(dnp no)
 		(uuid "7b550ff6-9ec6-4f3d-b207-4c16b08e5b5b")
 		(property "Reference" "#GND11"
-			(at 116.84 124.46 0)
+			(at 105.41 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22006,7 +22069,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 127 0)
+			(at 102.87 127 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -22015,7 +22078,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 124.46 0)
+			(at 105.41 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22024,7 +22087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 124.46 0)
+			(at 105.41 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22033,7 +22096,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 124.46 0)
+			(at 105.41 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24484,7 +24547,7 @@
 	)
 	(symbol
 		(lib_id "MM Performer-eagle-import:QG5860")
-		(at 129.54 116.84 0)
+		(at 118.11 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24492,7 +24555,7 @@
 		(dnp no)
 		(uuid "c0c8c59e-2497-4a1f-a947-845d9e5eac7e")
 		(property "Reference" "QG1"
-			(at 121.92 108.585 0)
+			(at 110.49 108.585 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -24501,7 +24564,7 @@
 			)
 		)
 		(property "Value" "QG5860"
-			(at 121.92 127 0)
+			(at 110.49 127 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -24510,7 +24573,7 @@
 			)
 		)
 		(property "Footprint" "footprints:Oscillator_DIP-14-8"
-			(at 129.54 116.84 0)
+			(at 118.11 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24519,7 +24582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 116.84 0)
+			(at 118.11 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24528,7 +24591,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 116.84 0)
+			(at 118.11 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25034,75 +25097,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MM Performer-eagle-import:SJ")
-		(at 142.24 121.92 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d41ef42a-64fd-4cf9-8ac3-a1f5d394fb71")
-		(property "Reference" "SJ1"
-			(at 139.7 124.46 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "SJ"
-			(at 146.05 124.46 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 142.24 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d5c51ac2-8cf9-47c6-afd4-6e966133f9fc")
-		)
-		(pin "1"
-			(uuid "4e4b9433-5e8d-4c7a-ac57-638e67b01429")
-		)
-		(instances
-			(project ""
-				(path "/563822bb-6af0-4402-8a5a-368bc066444a"
-					(reference "SJ1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MM Performer-eagle-import:GND")
 		(at 391.16 279.4 0)
 		(unit 1)
@@ -25238,7 +25232,7 @@
 	)
 	(symbol
 		(lib_id "MM Performer-eagle-import:VCC")
-		(at 116.84 109.22 0)
+		(at 105.41 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25246,7 +25240,7 @@
 		(dnp no)
 		(uuid "dbb22f18-9d14-4e24-a327-24fc46cf75eb")
 		(property "Reference" "#P+10"
-			(at 116.84 109.22 0)
+			(at 105.41 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25255,7 +25249,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 114.3 111.76 90)
+			(at 102.87 111.76 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -25265,7 +25259,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 109.22 0)
+			(at 105.41 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25274,7 +25268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 109.22 0)
+			(at 105.41 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25283,7 +25277,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 109.22 0)
+			(at 105.41 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25570,6 +25564,79 @@
 			(project ""
 				(path "/563822bb-6af0-4402-8a5a-368bc066444a"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 148.59 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e86719a6-9623-4492-85a5-2855527cebb2")
+		(property "Reference" "J3"
+			(at 149.86 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FPU Clock"
+			(at 149.86 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 148.59 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 148.59 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec400bb4-fa56-408b-8437-d88457f0a3e6")
+		)
+		(pin "3"
+			(uuid "b12c5dd6-7a60-4f08-a668-8fd13372614f")
+		)
+		(pin "1"
+			(uuid "cef53ca1-c6d2-4d5d-83e4-f52199e584ce")
+		)
+		(instances
+			(project ""
+				(path "/563822bb-6af0-4402-8a5a-368bc066444a"
+					(reference "J3")
 					(unit 1)
 				)
 			)
