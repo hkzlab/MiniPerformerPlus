@@ -66,6 +66,8 @@ You can keep the through hole sockets and the 3 pin header last.
 
 The PLDs must be programmed, the JED files can be found in [Bolle's repository](https://github.com/TheRealBolle/Performer-SE-PL-CL).
 
+![Rev. 1 board underside](pics/accel_underside.jpg)
+
 ### Known Issues
 
 While used without this board, my clone Mac Plus had no issues in using a WDC 65C22 and fast OTP ROMs.
