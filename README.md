@@ -6,6 +6,8 @@ Any use of this project is **under your own responsibility**.
 You will be responsible of checking the correct construction and functionality of your board.
 By using this project You will agree that I cannot be held responsible if it will destroy any of your devices, damage your computer, burn down your house or whatever.
 
+This board is still a work-in-progress, but I've decided to release it as the prototypes seems to work fine, but I'll probably further refine the design to work around some clearance issues.
+
 ## Introduction
 
 This board is a remix of the [Micromac Performer](https://github.com/TheRealBolle/Performer-SE-PL-CL) reversed by Bolle,
@@ -79,3 +81,4 @@ The PLDs must be programmed, the JED files can be found in [Bolle's repository](
 
 - Tweak the placement for the PLD sockets on the underside, so they fit right into DIP64 open-frame socket holes
 - Reduce or remove the bezel near the 68K socket to try and improve the clearance for RAM
+- Tweak size of the holes for the DIP64 socket, to allow for easier pin insertion.
