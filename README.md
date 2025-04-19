@@ -82,3 +82,5 @@ The PLDs must be programmed, the JED files can be found in [Bolle's repository](
 - Tweak the placement for the PLD sockets on the underside, so they fit right into DIP64 open-frame socket holes
 - Reduce or remove the bezel near the 68K socket to try and improve the clearance for RAM
 - Tweak size of the holes for the DIP64 socket, to allow for easier pin insertion.
+- Possibly replace U7 with a PLL for configurable speed
+- A revision with a QFP 68030?
