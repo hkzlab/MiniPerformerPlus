@@ -25,6 +25,11 @@ Those clips are now hard to come by, so this accelerator is meant to be installe
 This board has not been tested (yet) in an encased original Mac Plus. I expect it to fit mostly fine, provided that the correct pin length is used and
 the slanted RAM doesn't clash with it, but be warned that You're on your own for now, and encouraged to let me know if it worked out for you.
 
+### Ordering the boards
+
+You can order the board for this project at [PCBWay](https://www.pcbway.com/project/shareproject/MiniPerformer_d2c49c46.html) and support me or download 
+the gerbers and have them printed wherever you like!!!
+
 ## Features
 
 - Relatively easy to build, with socketed PLCC ICs
