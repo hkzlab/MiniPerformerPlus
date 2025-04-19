@@ -6,12 +6,14 @@ Any use of this project is **under your own responsibility**.
 You will be responsible of checking the correct construction and functionality of your board.
 By using this project You will agree that I cannot be held responsible if it will destroy any of your devices, damage your computer, burn down your house or whatever.
 
-This board is still a work-in-progress, but I've decided to release it as the prototypes seems to work fine, but I'll probably further refine the design to work around some clearance issues.
+This board is still a work-in-progress, but I've decided to release it for other people to experiment as the prototypes seems to work fine.
 
 ## Introduction
 
 This board is a remix of the [Micromac Performer](https://github.com/TheRealBolle/Performer-SE-PL-CL) reversed by Bolle,
-resized for installation on Macintosh Plus computers. Specifically, on the clone I am using.
+resized for installation on the Macintosh Plus clone I am using.
+
+Ideally, it should be usable on original Macintoshes too, but it might require some tweaking/redesign of the PCB to accomodate that.
 
 ![Rev. 1 board installed in a Mac Plus clone motherboard](pics/accel_installed.jpg)
 
@@ -27,6 +29,8 @@ the slanted ram doesn't clash with it, but be warned that You're on your own for
 
 You can order the board for this project at [PCBWay](https://TODO) and support me or download 
 the gerbers and have them printed wherever you like!!!
+
+Just remember to read the **Known Issues** section!
 
 ## Features
 
@@ -72,7 +76,7 @@ The PLDs must be programmed, the JED files can be found in [Bolle's repository](
 
 ### Known Issues
 
-- CLEARANCE: The bezel around the 68K socket on this accelerator could conflict with RAM on an original Plus, as the RAM sockets are slanted. If the accelerator is raised to make up for the clearance issue, it could end up too high to fit a Macintosh Plus chassis.
+- **CLEARANCE**: The bezel around the 68K socket on this accelerator could conflict with RAM on an original Plus, as the RAM sockets are slanted. If the accelerator is raised to make up for the clearance issue, it could end up too high to fit a Macintosh Plus chassis.
 - While used without this board, my clone Mac Plus had no issues in using a WDC 65C22 and fast OTP ROMs. With the accelerator installed, it gets a bit finicky on the parts and sometimes refuses to boot at all with those installed.
 - Replacing the ROMs with standard 27C512 rated at around 150nS, plus using a plain old 6522 solved all the boot issues for me. No changes should be necessary on a stock Mac Plus, but let me know how it goes for you.
 - Also, note that the choice of PLD type for the build is important, especially for U7: I had good luck with PALCE16V8 rated at 25ns or ATF16V8 rated at 15. Pain and tears with GAL16V8D though.
