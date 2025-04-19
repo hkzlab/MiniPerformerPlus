@@ -23,7 +23,7 @@ The original Performer had a clip mounted on the underside that allowed it to sn
 Those clips are now hard to come by, so this accelerator is meant to be installed in place of the 68000, which has to be desoldered and socketed.
 
 This board has not been tested (yet) in an encased original Mac Plus. I expect it to fit mostly fine, provided that the correct pin length is used and
-the slanted ram doesn't clash with it, but be warned that You're on your own for now, and encouraged to let me know if it worked out for you.
+the slanted RAM doesn't clash with it, but be warned that You're on your own for now, and encouraged to let me know if it worked out for you.
 
 ## Features
 
