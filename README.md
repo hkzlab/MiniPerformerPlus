@@ -1,4 +1,4 @@
-# MicroPerformer+
+# MiniPerformer+
 
 ## DISCLAIMER
 
