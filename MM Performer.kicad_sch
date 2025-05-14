@@ -1437,119 +1437,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x01"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Polarized_Small"
 			(pin_numbers
 				(hide yes)
@@ -11962,16 +11849,6 @@
 		)
 		(uuid "354a7a56-5c7f-44b9-b1b6-df225d84032e")
 	)
-	(wire
-		(pts
-			(xy 190.5 195.58) (xy 193.04 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35bdf7e3-b76c-49e7-b49b-96a99ccd263e")
-	)
 	(bus
 		(pts
 			(xy 332.74 127) (xy 332.74 129.54)
@@ -11981,16 +11858,6 @@
 			(type solid)
 		)
 		(uuid "35ebe4d5-8ea7-46a4-a558-82e98d941347")
-	)
-	(wire
-		(pts
-			(xy 190.5 194.31) (xy 190.5 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35f3fd05-d576-4397-a702-f315a412d758")
 	)
 	(wire
 		(pts
@@ -13244,16 +13111,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 203.2) (xy 190.5 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fe37159-0189-456f-969e-2f891f3e3ad5")
-	)
-	(wire
-		(pts
 			(xy 195.58 162.56) (xy 205.74 162.56)
 		)
 		(stroke
@@ -14381,16 +14238,6 @@
 			(type solid)
 		)
 		(uuid "a2d754ed-9b2f-4540-80f9-9b7eaec0b81f")
-	)
-	(wire
-		(pts
-			(xy 193.04 203.2) (xy 190.5 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4410f1d-bfbc-4a8f-905d-1b525fa59965")
 	)
 	(wire
 		(pts
@@ -20149,7 +19996,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "ATF16V8BJ"
+		(property "Value" "GAL16V8"
 			(at 259.08 134.62 0)
 			(effects
 				(font
@@ -20595,73 +20442,6 @@
 	)
 	(symbol
 		(lib_id "MM Performer-eagle-import:VCC")
-		(at 190.5 191.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "34205ee8-9940-419c-9a0d-41fb64e82d0c")
-		(property "Reference" "#P+030"
-			(at 190.5 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 187.96 194.31 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e452828-4158-4dd2-885d-14effee8b651")
-		)
-		(instances
-			(project "MM Performer"
-				(path "/563822bb-6af0-4402-8a5a-368bc066444a"
-					(reference "#P+030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MM Performer-eagle-import:VCC")
 		(at 284.48 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20860,73 +20640,6 @@
 			(project ""
 				(path "/563822bb-6af0-4402-8a5a-368bc066444a"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 198.12 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4bc1dea6-2413-4b29-a458-e867ba58bc7b")
-		(property "Reference" "J1"
-			(at 200.66 194.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VCC"
-			(at 200.66 196.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm"
-			(at 198.12 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 198.12 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a83b5975-9436-4466-86be-b73df30b1454")
-		)
-		(instances
-			(project ""
-				(path "/563822bb-6af0-4402-8a5a-368bc066444a"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -21138,73 +20851,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 198.12 203.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "596b60c7-5972-4942-ae1f-a6f2b4f01027")
-		(property "Reference" "J2"
-			(at 200.66 201.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 200.66 204.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm"
-			(at 198.12 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 198.12 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e270dba6-3673-41de-9348-90b962dcf380")
-		)
-		(instances
-			(project "MM Performer"
-				(path "/563822bb-6af0-4402-8a5a-368bc066444a"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "MC68030RC_1")
 		(lib_id "Performer-SE-PL-CL-eagle-import:MC68030RC")
 		(at 360.68 101.6 0)
@@ -21223,14 +20869,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "MC68030RC"
+		(property "Value" "68030"
 			(at 347.98 177.8 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "footprints:CPGA-128_Layout13x13_MC68030"
@@ -21945,7 +21590,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "ATF16V8BJ"
+		(property "Value" "GAL16V8"
 			(at 187.96 180.34 0)
 			(effects
 				(font
@@ -22203,7 +21848,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "ATF16V8BJ"
+		(property "Value" "GAL16V8"
 			(at 187.96 134.62 0)
 			(effects
 				(font
@@ -22531,7 +22176,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "MC68030RC"
+		(property "Value" "68030"
 			(at 323.85 340.36 0)
 			(effects
 				(font
@@ -23031,7 +22676,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "ATF16V8BJ"
+		(property "Value" "GAL16V8"
 			(at 259.08 78.74 0)
 			(effects
 				(font
@@ -24241,7 +23886,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68000D"
+		(property "Value" "68000"
 			(at 83.4233 198.12 0)
 			(effects
 				(font
@@ -24473,73 +24118,6 @@
 			(project ""
 				(path "/563822bb-6af0-4402-8a5a-368bc066444a"
 					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MM Performer-eagle-import:GND")
-		(at 190.5 208.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc73e3da-7308-48b8-a8db-26351e27ceda")
-		(property "Reference" "#GND07"
-			(at 190.5 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 187.96 210.82 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d13cfb8-a2b2-416c-ad75-3e0985b4f818")
-		)
-		(instances
-			(project "MM Performer"
-				(path "/563822bb-6af0-4402-8a5a-368bc066444a"
-					(reference "#GND07")
 					(unit 1)
 				)
 			)
@@ -25579,7 +25157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e86719a6-9623-4492-85a5-2855527cebb2")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 149.86 118.1099 0)
 			(effects
 				(font
@@ -25636,7 +25214,7 @@
 		(instances
 			(project ""
 				(path "/563822bb-6af0-4402-8a5a-368bc066444a"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -25729,7 +25307,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "MC68881FN-SOC"
+		(property "Value" "68882"
 			(at 426.72 147.32 0)
 			(effects
 				(font
@@ -25994,7 +25572,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MC68881FN-SOC"
+		(property "Value" "68882"
 			(at 407.67 266.0159 0)
 			(effects
 				(font
@@ -26392,7 +25970,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "ATF16V8BJ"
+		(property "Value" "GAL16V8"
 			(at 187.96 78.74 0)
 			(effects
 				(font

@@ -13,17 +13,17 @@ This board is still a work-in-progress, but I've decided to release it for other
 This board is a remix of the [Micromac Performer](https://github.com/TheRealBolle/Performer-SE-PL-CL) reversed by Bolle,
 resized for installation on the Macintosh Plus clone I am using.
 
-Ideally, it should be usable on original Macintoshes too, but it might require some tweaking/redesign of the PCB to accomodate that.
+Ideally, it should be usable on original Mac Pluses too, try and let me know!
 
-![Rev. 1 board installed in a Mac Plus clone motherboard](pics/accel_installed.jpg)
+![Rev. 2 board installed in a Mac Plus clone motherboard](pics/accel_installed.jpg)
 
 ### Caveat Emptor
 
 The original Performer had a clip mounted on the underside that allowed it to snap on the motherboard's 68000 without desoldering.
 Those clips are now hard to come by, so this accelerator is meant to be installed in place of the 68000, which has to be desoldered and socketed.
 
-This board has not been tested (yet) in an encased original Mac Plus. I expect it to fit mostly fine, provided that the correct pin length is used and
-the slanted RAM doesn't clash with it, but be warned that You're on your own for now, and encouraged to let me know if it worked out for you.
+This board has not been tested (yet) in an encased original Mac Plus. I expect it to fit mostly fine, provided that the correct pin length is used, 
+but be warned that You're on your own for now, and encouraged to let me know if it worked out for you.
 
 ### Ordering the boards
 
@@ -74,15 +74,11 @@ The PLDs must be programmed, the JED files can be found in [Bolle's repository](
 
 ### Known Issues
 
-- **CLEARANCE**: The bezel around the 68K socket on this accelerator could conflict with RAM on an original Plus, as the RAM sockets are slanted. If the accelerator is raised to make up for the clearance issue, it could end up too high to fit a Macintosh Plus chassis.
 - While used without this board, my clone Mac Plus had no issues in using a WDC 65C22 and fast OTP ROMs. With the accelerator installed, it gets a bit finicky on the parts and sometimes refuses to boot at all with those installed.
 - Replacing the ROMs with standard 27C512 rated at around 150nS, plus using a plain old 6522 solved all the boot issues for me. No changes should be necessary on a stock Mac Plus, but let me know how it goes for you.
 - Also, note that the choice of PLD type for the build is important, especially for U7: I had good luck with PALCE16V8 rated at 25ns or ATF16V8 rated at 15. Pain and tears with GAL16V8D though.
 
 ### Future Improvements
 
-- Tweak the placement for the PLD sockets on the underside, so they fit right into DIP64 open-frame socket holes
-- Reduce or remove the bezel near the 68K socket to try and improve the clearance for RAM
-- Tweak size of the holes for the DIP64 socket, to allow for easier pin insertion.
 - Possibly replace U7 with a PLL for configurable speed
 - A revision with a QFP 68030?
