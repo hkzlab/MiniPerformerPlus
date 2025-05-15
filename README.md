@@ -74,8 +74,7 @@ The PLDs must be programmed, the JED files can be found in [Bolle's repository](
 
 ### Known Issues
 
-- While used without this board, my clone Mac Plus had no issues in using a WDC 65C22 and fast OTP ROMs. With the accelerator installed, it gets a bit finicky on the parts and sometimes refuses to boot at all with those installed.
-- Replacing the ROMs with standard 27C512 rated at around 150nS, plus using a plain old 6522 solved all the boot issues for me. No changes should be necessary on a stock Mac Plus, but let me know how it goes for you.
+- While used without this board, my clone Mac Plus had no issues in using a WDC 65C22 and fast OTP ROMs. With the accelerator installed, it gets a bit finicky on the parts and sometimes refuses to boot at all with those installed. Replacing the ROMs with standard 27C512 rated at around 150nS, plus using a plain old 6522 solved all the boot issues for me. No changes should be necessary on a stock Mac Plus, but let me know how it goes for you.
 - Also, note that the choice of PLD type for the build is important, especially for U7: I had good luck with PALCE16V8 rated at 25ns or ATF16V8 rated at 15. Pain and tears with GAL16V8D though.
 - Like the original Performer, using this accelerator could get You audio distorsion in some software
 
