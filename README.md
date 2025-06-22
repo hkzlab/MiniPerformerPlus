@@ -6,8 +6,6 @@ Any use of this project is **under your own responsibility**.
 You will be responsible of checking the correct construction and functionality of your board.
 By using this project You will agree that I cannot be held responsible if it will destroy any of your devices, damage your computer, burn down your house or whatever.
 
-This board is still a work-in-progress, but I've decided to release it for other people to experiment as the prototypes seems to work fine.
-
 ## Introduction
 
 This board is a remix of the [Micromac Performer](https://github.com/TheRealBolle/Performer-SE-PL-CL) reversed by Bolle,
@@ -21,9 +19,6 @@ Ideally, it should be usable on original Mac Pluses too, try and let me know!
 
 The original Performer had a clip mounted on the underside that allowed it to snap on the motherboard's 68000 without desoldering.
 Those clips are now hard to come by, so this accelerator is meant to be installed in place of the 68000, which has to be desoldered and socketed.
-
-This board has not been tested (yet) in an encased original Mac Plus. I expect it to fit mostly fine, provided that the correct pin length is used, 
-but be warned that You're on your own for now, and encouraged to let me know if it worked out for you.
 
 ### Ordering the boards
 
@@ -82,3 +77,7 @@ The PLDs must be programmed, the JED files can be found in [Bolle's repository](
 
 - Possibly replace U7 with a PLL for configurable speed
 - A revision with a QFP 68030?
+
+### Extra
+
+A nice [video](https://www.youtube.com/watch?v=oIT5QKRQgww) by BigBadBiologist on how to abuse a Macintosh Classic with this board meant for a Macintosh Plus!
