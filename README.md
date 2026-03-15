@@ -67,6 +67,12 @@ The PLDs must be programmed, the JED files can be found in [Bolle's repository](
 
 ![Rev. 2 board underside](pics/accel_underside.jpg)
 
+### How to disable the accelerator
+
+Turn on the Macintosh Plus then, after the chime sound, hold the interrupt button, and push reset after that. After another chime sound plays, release the interrupt button.
+
+The accelerator will be disabled until the next boot.
+
 ### Known Issues
 
 - While used without this board, my clone Mac Plus had no issues in using a WDC 65C22 and fast OTP ROMs. With the accelerator installed, it gets a bit finicky on the parts and sometimes refuses to boot at all with those installed. Replacing the ROMs with standard 27C512 rated at around 150nS, plus using a plain old 6522 solved all the boot issues for me. No changes should be necessary on a stock Mac Plus, but let me know how it goes for you.
