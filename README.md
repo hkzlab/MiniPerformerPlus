@@ -71,6 +71,11 @@ Try not to short them.
 
 You can keep the through hole sockets and the 3 pin header last.
 
+Once the all pins have been soldered, you can **VERY CAREFULLY** remove the holding socket. If you choose long enough pins, the accelerator will have enough clearance
+at the bottom to install in the 68000 socket on the motherboard.
+
+![Rev. 2 bottomside without socket](pics/accel_pins_without_socket.jpg)
+
 The PLDs must be programmed, the JED files can be found in [Bolle's repository](https://github.com/TheRealBolle/Performer-SE-PL-CL).
 
 ![Rev. 2 board underside](pics/accel_underside.jpg)
