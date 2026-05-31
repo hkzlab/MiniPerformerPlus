@@ -57,9 +57,17 @@ I usually do the 3 tantalum caps right after, then flip the board and install th
 For the sockets, my usual approach is to snip away the bottom, apply copious flux on the PCB, align the sockets and then
 apply solder, no need for hot air here. You do you though.
 
-The nastiest part is installing the round pins in the 68000 footprint. Use a large flat blade screwdriver, and use the flat part of the
-screwdriver to push and wiggle the pin completely in. Try not to hurt your fingers (like I did...) in the process.
-Once the rows are installed, I usually attach a socket on the pins to keep them in line, apply flux on the pcb, then solder every pin on the underside.
+The nastiest part is installing the round pins in the 68000 footprint. Insert the pins from the topside of the board, then use a large flat blade screwdriver,
+pushing the pins through the hole wiggling the pin completely in. Try not to hurt your fingers (like I did...) in the process.
+
+The installed pins should look like this. Mind you, you will need pins >=9.7mm in length!
+
+![Rev. 2 topside view](pics/accel_pins_topside.jpg)
+
+Once the rows are installed, I usually install a temporary socket on the pins to keep them in line, apply flux on the pcb, then solder every pin on the underside.
+Try not to short them.
+
+![Rev. 2 sideways pins view](pics/accel_pins_soldering.jpg)
 
 You can keep the through hole sockets and the 3 pin header last.
 
